@@ -1,0 +1,227 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.nav li a {
+  font-family: 'Ubuntu';
+  color: #FDFDFD;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.banner {
+  justify-content: center;
+  background-color: #fff;
+  padding: 125px 0 60px;
+}
+
+.banner h1 {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 60px;
+  color: #FF4081;
+}
+
+.banner p {
+  font-family: 'Ubuntu';
+  margin: 20px 0 30px;
+  font-weight: 400;
+  font-size: 27px;
+  color: #555555;  
+}
+
+.banner button {
+  border: 2px solid #FF4081;
+  height: 51px;
+  width: 268px;
+  border-radius: 62px;
+  background-color: #fff;
+}
+
+.banner button a {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 25px;
+  color: #FF4081;
+}
+
+.banner img {
+  margin-left: 80px;
+  height: 500px;
+  width: 510px;
+}
+
+.money {
+  justify-content: space-around;
+  padding: 100px 0;
+  background-color: #F7F7F7;
+}
+
+.money-card {
+  align-items: center;
+  flex-direction: column;
+}
+
+.money-card img {
+  height: 270px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.money-card h2 {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #FF4081;
+  margin-bottom: 15px;
+}
+
+.money-card p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.money-card button {
+  width: 233px;
+  height: 51px;
+  background: #FF4081;
+  border-radius: 62px;
+  border: 0;
+}
+
+.money-card button a {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-title {
+  color: #009688;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 37px;
+  margin-bottom: 70px;
+}
+
+.about {
+  flex-direction: column;
+  padding: 120px 125px 150px;
+  background-color: #fff;
+}
+
+.about .testimonies {
+  justify-content: space-between;
+}
+
+.about .testimonies .testimony {
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.about .testimonies .testimony img {
+  margin-right: 20px;
+}
+
+.about .testimonies .testimony p {
+  font-family: 'Nunito';
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+
+.blog {
+  padding: 120px 125px 150px;
+  background-color: #F7F7F7;
+  flex-direction: column;
+}
+
+.blog .articles {
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.blog .articles h2 {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 27px;
+  color: #009688;
+}
+
+.blog .articles p {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+}
+
+.blank-rectangle {
+  width: 319px;
+  height: 193px;
+  background: #C4C4C4;
+  margin-bottom: 10px;
+}
+
+.blog .see-all {
+  align-self: center;
+}
+
+.blog .see-all button {
+  width: 289px;
+  height: 51px;
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+  background-color: #F7F7F7;
+}
+
+.blog .see-all button a {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 25px;
+  color: #FF4081;
+}
+
+.footer {
+  padding: 50px 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .nav-footer li {
+  margin-bottom: 5px;
+}
+
+.footer .nav-footer a {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.footer .buttons-footer button {
+  border: 2px solid #FFFFFF;
+  border-radius: 62px;
+  background-color: #419488;
+  width: 289px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.footer .buttons-footer button a {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
