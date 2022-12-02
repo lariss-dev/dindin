@@ -1,0 +1,112 @@
+.top {
+    justify-content: center;
+    background-color: #fff;
+    padding: 81px 40px 60px;
+}
+
+.top h1 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 60px;
+    color:#FF4081;
+}
+
+.top p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+}
+
+.courses {
+    padding: 0 60px;
+}
+
+.course-card {
+    padding: 70px 0;
+}
+
+.course-card img {
+    min-height: 380px;
+    min-width: 380px;
+}
+
+.course-card div {
+    margin-left: 50px;
+}
+
+.course-card h2 {
+    font-family: 'Ubuntu';
+    font-size: 35px;
+    font-weight: 700;
+    color: #FF4081;
+    margin-bottom: 35px;
+}
+
+.course-card p {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.course-card div button {
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    border: 0;
+}
+
+.course-card div button a {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+@media (max-width:850px) {
+    
+    .course-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .course-card img {
+        min-height: 180px;
+        min-width: 180px;
+    }
+    
+    .course-card h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .course-card p {
+        text-align: center;
+    }
+}
+
+@media (max-width:580px) { 
+    .top {
+        padding: 40px 40px 30px;
+    }
+
+    .top h1 {
+        font-size: 50px;
+    }
+    
+    .top p {
+        font-size: 18px;
+    }
+}

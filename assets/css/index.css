@@ -19,6 +19,10 @@
   padding: 125px 0 60px;
 }
 
+.banner .banner-title {
+  width: 500px;
+}
+
 .banner h1 {
   font-family: 'Ubuntu';
   font-weight: 700;
@@ -123,6 +127,7 @@
 
 .about .testimonies {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .about .testimonies .testimony {
@@ -192,36 +197,127 @@
   color: #FF4081;
 }
 
-.footer {
-  padding: 50px 130px;
-  align-items: center;
-  justify-content: space-between;
+@media (max-width:1210px) {
+  .blog .articles h2 {
+    font-size: 20px;
+  }
+
+  .blog .articles p {
+    font-size: 12px;
+  }
+
+  .blank-rectangle {
+    width: 239px;
+    height: 113px;
+  }
 }
 
-.footer .nav-footer li {
-  margin-bottom: 5px;
+@media (max-width:1000px) {
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 60px;
+  }
+
+  .banner .banner-title {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .banner h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .banner img {
+    margin-left: 0;
+    height: 400px;
+    width: 410px;
+  }
 }
 
-.footer .nav-footer a {
-  font-family: 'Ubuntu';
-  font-weight: 400;
-  font-size: 20px;
-  color: #FFFFFF;
+@media (max-width:965px) {
+  .blank-rectangle {
+    width: 200px;
+    height: 100px;
+  }
+}
+  
+@media (max-width:850px) {
+  .banner .banner-title {
+    width: auto;
+  }
+
+  .banner h1 {
+    font-size: 35px;
+  }
+  
+  .banner p {
+    text-align: center;
+  }
+
+  .banner img {
+    height: 300px;
+    width: 310px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .money {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+
+  .money-card {
+    margin-bottom: 40px;
+  }
+
+  .articles {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .articles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
-.footer .buttons-footer button {
-  border: 2px solid #FFFFFF;
-  border-radius: 62px;
-  background-color: #419488;
-  width: 289px;
-  height: 50px;
-  margin-bottom: 10px;
-}
+@media (max-width:550px) {  
+  .about {
+    padding: 80px 70px 90px;
+  }
 
-.footer .buttons-footer button a {
-  font-family: 'Ubuntu';
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #FFFFFF;
+  .blog {
+    padding: 80px 70px 90px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .about .testimonies .testimony {
+    flex-direction: column;
+  }
+  
+  .about .testimonies .testimony img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about .testimonies .testimony p {
+    text-align: center;
+  }
 }
