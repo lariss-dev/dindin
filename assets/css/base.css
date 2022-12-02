@@ -86,7 +86,9 @@ footer {
     .header img {
         width: 200px;
     }
+}
 
+@media (max-width:850px) {
     footer {
         flex-direction: column;
     }
@@ -101,9 +103,7 @@ footer {
     footer .nav-footer .buttons-footer button{
         width: 260px;
     }
-}
-
-@media (max-width:850px) {
+    
     footer img{
         width: 200px;
     }
